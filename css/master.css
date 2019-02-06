@@ -1,0 +1,31 @@
+#slider {
+    position: relative;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    overflow: hidden;
+}
+#slider ul{ position: absolute; width: 6000px; overflow: hidden; padding: 0; margin: 0;}
+#slider ul li {
+    padding: 0;
+    float: left;
+    margin: 0;
+    top: 0;
+    left: 0;
+    list-style: none;
+    transition: all ease;
+}
+#row{
+    width: 700px; 
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#row button{
+ width: 10em; 
+ height: 3em;
+ text-align: center;
+}
+
