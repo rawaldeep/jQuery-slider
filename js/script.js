@@ -35,9 +35,9 @@ $(function(){
         console.log(currentSlide);
         $(sliderContainer).animate({'margin-left': '-='+width}, 500, function(){
             currentSlide++;
-            if(currentSlide === slides.length){
+            if(currentSlide >= slides.length){
                 currentSlide = 0; 
-                $(sliderContainer).css('margin-left', 0);
+                $(sliderContainer).css('margin-left', '0px');
             }; 
         });
 });
